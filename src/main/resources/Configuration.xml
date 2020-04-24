@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<globalConfiguration>
+    <dataDirectories>
+        <export-dir></export-dir>
+        <import-dir>data/</import-dir>
+    </dataDirectories>
+    <DbConfiguration>
+        <driver>org.mysql.jdbc.Driver</driver>
+        <password>dreadw4r</password>
+        <url>jdbc:mysql://localhost:3307/new_schema</url>
+        <username>root</username>
+    </DbConfiguration>
+    <sftpServer>
+        <host>fe.ddns.protal.biz</host>
+        <knownHosts></knownHosts>
+        <password>hyperpass</password>
+        <port>22</port>
+        <rootDirectory>/xml-data</rootDirectory>
+        <saveToUrl>data/</saveToUrl>
+        <username>sftpuser</username>
+    </sftpServer>
+</globalConfiguration>
